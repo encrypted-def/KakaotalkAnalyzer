@@ -2,6 +2,7 @@
 Python + konlpy module + MySQL
 
 # Table Setting
+```sql
 CREATE table USER(  
     name nvarchar(20),  
     jointime datetime,  
@@ -29,3 +30,4 @@ CREATE table CONVERSATION(
     receiver nvarchar(20),  
     starttime datetime  
 );
+```
